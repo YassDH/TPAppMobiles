@@ -1,17 +1,11 @@
-package com.gl4.tp4
-import android.content.Intent
+/*package com.gl4.tp4
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
-import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
 import androidx.activity.ComponentActivity
 import androidx.activity.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.gl4.tp4.database.BusScheduleApplication
 import com.gl4.tp4.databinding.ActivityDetailsBinding
-import com.gl4.tp4.databinding.ActivityMainBinding
 import com.gl4.tp4.viewmodels.BusScheduleViewModel
 import com.gl4.tp4.viewmodels.BusScheduleViewModelFactory
 class DetailsActivity : ComponentActivity() {
@@ -26,7 +20,7 @@ class DetailsActivity : ComponentActivity() {
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_details)
+        setContentView(R.layout.fragment_bus_details)
 
         val stopName = intent.getStringExtra("stopName")
 
@@ -48,4 +42,4 @@ class DetailsActivity : ComponentActivity() {
         }
 
     }
-}
+}*/
